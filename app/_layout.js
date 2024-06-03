@@ -1,6 +1,6 @@
 import { Stack } from "expo-router";
 import logo from "../assets/logoVies.png";
-import { Image, StyleSheet, View } from "react-native";
+import { Image, StyleSheet, View, Text } from "react-native";
 import { Asset } from "expo-asset";
 import React, { useState, useEffect } from "react";
 
