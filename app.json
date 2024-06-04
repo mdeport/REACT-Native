@@ -8,7 +8,7 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/logoVies.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -25,6 +25,7 @@
       "favicon": "./assets/favicon.png",
       "bundler": "metro"
     },
+
     "plugins": ["expo-router"]
   }
 }
