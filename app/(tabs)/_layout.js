@@ -8,6 +8,7 @@ export default function TabLayout() {
       <Tabs.Screen name="nosactivite" options={{ title: "Nos Activités", tabBarIcon: ({ color }) => <FontAwesome size={28} name="heart" color={color} /> }} />
       <Tabs.Screen name="dons" options={{ title: "dons", tabBarIcon: ({ color }) => <FontAwesome size={28} name="money" color={color} /> }} />
       <Tabs.Screen name="mentionlegal" options={{ title: "Mention légal", tabBarIcon: ({ color }) => <FontAwesome size={28} name="legal" color={color} /> }} />
+      <Tabs.Screen name="mesBonnesActions" options={{ title: " Mes bonnes actions", tabBarIcon: ({ color }) => <FontAwesome size={28} name="tasks" color={color} /> }} />
     </Tabs>
   );
 }
